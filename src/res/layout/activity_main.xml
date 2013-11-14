@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Large"
+        android:text="Are you bored and don't know what to do?" />
+    
+    <Button 
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here for a suggestion!" />   
+        
+     <TextView
+	     android:id="@+id/suggestion"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     style="@android:style/TextAppearance.Large"
+	     android:text="" />
+    
+</LinearLayout>
